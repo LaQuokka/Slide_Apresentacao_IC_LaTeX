@@ -1,47 +1,107 @@
 \documentclass{beamer}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\begin{document}
 %Information to be included in the title page:
-\title{Relatório Parcial de Iniciação Científica}
+\title{Relatório Parcial de Iniciação Científica (PUB)}
 \subtitle{Regras fiscais: síntese e discussão sobre o arcabouço fiscal brasileiro}
-\author{Cinthya Beneducci Afonso}
+\author{Cinthya Beneducci Afonso\\\small{Orientação: Fabiana Rocha}}
 \institute{FEA-USP}
 \date{2023}
 
-\begin{document}
-
 \frame{\titlepage}
 
+% Slide 2: Sumário
 \begin{frame}
 \frametitle{Sumário}
+
 \begin{enumerate}
-    \item Problema e objetivos do projeto de pesquisa
+    \item Objetivos do projeto de pesquisa
+    \item Problemática e motivações
+    \begin{enumerate}
+        \item O debate nacional e internacional sobre regras fiscais
+        \item Base de dados do FMI
+    \end{enumerate}
     \item Principais referências da literatura
     \begin{enumerate}
-        \item Davoodi et al. e outras análises do FMI
-        \item HUANG, Chiung-Ju; HO, Yuan-Hong (2018), Alberola (2018) e outros
-        \item Metodologia de Budina, Schaechter e Kinda (2012)
+        \item Davoodi et al. (2022) e outras análises de estatística descritiva do FMI 
+        \item O IRF da União Europeia e a metodologia de Budina, Schaechter e Kinda (2012) para o IRF et al. (2018) 
+        \item HUANG e HO (2018) e Alberola et al. (2018)
     \end{enumerate}
-        
+    \item Progresso, próximos passos e conclusão
+    \item Referências
+
 \end{enumerate}
+
 \end{frame}
 
-
+%Slide 3: Objetivos do projeto de pesquisa
 \begin{frame}
-\frametitle{Problema e objetivos do projeto de pesquisa}
-\begin{enumerate}
-    \item 
-\end{enumerate}
+\frametitle{Objetivos do projeto de pesquisa}
+    \begin{itemize}
+        \item Fazer uso da série de dados temporal sobre regras fiscais do FMI para contribuir com análises que somem ao já realizado por Davoodi et al. (2022) e outros trabalhos da literatura
+        \item Calcular e disponibilizar os valores ano-a-ano de um índice de força de regras fiscais para o Brasil 
+        \item Estudar e analisar a literatura recente sobre as últimas propostas e alterações do arcabouço fiscal brasileiro
+    
+    \end{itemize}
 \end{frame}
 
+% Slide 4: O debate nacional e internacional sobre regras fiscais
+\begin{frame}
+\frametitle{Problemática e motivações}
+\framesubtitle{O debate nacional e internacional sobre regras fiscais}
+\begin{itemize}
+    \item Discussão sobre arcabouços fiscais em pauta atualmente (ocorrência de diversos choques macroeconômicos recentes)
+    \item Arcabouço fiscal brasileiro: propostas de alteração colocadas e novo arcabouço fiscal anunciado em mar/23
+    \item Atualização em 2021 da série histórica de dados do FMI sobre as regras fiscais de 106 países
+\end{itemize}
+
+\end{frame}
+
+% Slide 5: Base de dados do FMI
+\begin{frame}
+\frametitle{Problemática e motivações}
+\framesubtitle{Base de dados do FMI}
+
+\begin{itemize}
+    \item Série histórica de dados do FMI sobre as regras fiscais de 106 países (última atualização: 2021)
+    \item Variáveis categóricas (quase todas são dummies)
+    \item Categoriza quatro tipos de regras fiscais: RR, ER, BBR e DR
+    \item 5 informações quanto a cada tipo de regra:
+    \begin{itemize}
+        \item monitoramento por instituição extra-governamental 
+        \item  procedimentos formais que incentivem o cumprimento da regra 
+        \item nível de cobertura governamental 
+        \item base legal
+        \item existência de cláusula de escape 
+    \end{itemize}
+    \item Mais 6 informações sobre o arcabouço fiscal do país:
+    \begin{itemize}
+        \item existência de tetos plurianuais 
+        \item instituição independente fazendo as presunções orçamentárias
+        \item presença de LRFs
+        \item presença de meta de balanço orçamentário estrutural/ciclicamente ajustado ou over-the-cycle 
+        \item investimento público/outras prioridades excluídas das metas
+    
+    \end{itemize}
+    \item Dados referentes ao Brasil desde 1998
+\end{itemize}
+    
+\end{frame}
+
+
+% Slide 6: Davoodi et al. e outras análises do FMI e a metodologia de Budina, Schaechter e Kinda (2012)
 \begin{frame}
 \frametitle{Principais referências da literatura}
-\framesubtitle{Davoodi et al. e outras análises do FMI}
-
-abcabc
+\framesubtitle{Davoodi et al. (2022) e outras análises de estatística descritiva do FMI}
+    
 \end{frame}
 
+% Slide 7: HUANG, Chiung-Ju; HO, Yuan-Hong (2018); Alberola (2018) e o IRF da União Europeia
 \begin{frame}
 \frametitle{Principais referências da literatura}
-\framesubtitle{HUANG, Chiung-JU; HO, Yuan-Hong (2018), Alberola (2018) e outros}
+\framesubtitle{O IRF da União Europeia e a metodologia de Budina, Schaechter e Kinda (2012) para o IRF}
 
 referencias
     
@@ -49,10 +109,50 @@ referencias
 
 \begin{frame}
 \frametitle{Principais referências da literatura}
-\framesubtitle{Metodologia de Budina, Schaechter e Kinda (2017)}
+\framesubtitle{HUANG e HO (2018) e Alberola et al. (2018) }
 
 referencias
     
+\end{frame}
+% Slide 8: Progresso, próximos passos e conclusão
+\begin{frame}
+\frametitle{Progresso, próximos passos e conclusão}
+\begin{itemize}
+    \item \justifying Progresso alcançado
+    \begin{itemize}
+        \item Revisão da literatura
+        \item Estudo das principais propostas colocadas recentemente para um novo arcabouço brasileiro
+        \item Identificação do que já foi desenvolvido na literatura
+        \item Identificação de brechas para contribuição
+        \item Preparação do arcabouço teórico necessário para efetuar as análises quantitativas na segunda parte da pesquisa
+        \item Habilidades desenvolvidas: pesquisa acadêmica, programação em Python, oportunidade para usar \LaTeX
+    \end{itemize}
+    \item Próximos passos
+    \begin{itemize}
+        \item Produzir análises de estatística descritiva que somem ao já produzido em outros \emph{papers}
+        \item Produzir o IRF para o Brasil a partir dos dados e metodologia disponíveis
+        \item Explorar e compilar os debates recentes sobre o arcabouço fiscal brasileiro
+        \item Experimentar mudanças no IRF brasileiro a partir de diferentes configurações fiscais
+  
+    \end{itemize}
+\end{itemize}
+
+    
+\end{frame}
+
+% Slide 9: Referências
+\begin{frame}
+\frametitle{Referências}
+
+\begin{itemize}
+    \item \small{ALBEROLA, Enrique et al. \textbf{Fiscal policy and the cycle in Latin America: the role of financing conditions and fiscal rules}. Ensayos sobre politica economica, v. 36, n. 85, p. 101-116, 2018.}
+    \item BUDINA, Nina T.; SCHAECHTER, Andrea; KINDA, Tidiane. \textbf{Fiscal rules in response to the crisis: Toward the "next-generation" rules: A new dataset}. IMF working papers, v. 2012, n. 187, 2012.
+    \item DAVOODI, Hamid R. et al. \textbf{Fiscal Rules and Fiscal Councils: Recent Trends and Performance during the COVID-19 Pandemic}. IMF Working Papers, v. 2022, n. 011, 2022.
+    \item Directorate General for Economic and Financial Affairs. (2022). \textbf{Design of numerical fiscal rules 2021 [banco de dados]}. Disponível em: \url{https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/fiscal-governance-database_en}. Acesso em 5 de abril de 2023.
+    \item HUANG, Chiung-Ju; HO, Yuan-Hong. \textbf{The Effectiveness of National Fiscal Rules in the Asia-Pacific Countries}. International Journal of Economics and Management Engineering, v. 12, n. 11, p. 1505-1509, 2018.
+\end{itemize}
+
+
 \end{frame}
 
 \end{document}
